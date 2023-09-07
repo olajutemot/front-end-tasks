@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Front-end stage-one Task</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <label>Slack Name: </label>
+        <h1 data-testid="slackUserName">Olajutemo Timilehin</h1>
+      </div>
+      <div>
+        <label>Slack Display Picture: </label>
+        <img
+          src="./timmy gig picture.jpeg"
+          alt="olajutemot"
+          data-testid="slackDisplayImage"
+          width="250px"
+        />
+      </div>
+      <div>
+        <label>Current Day of the Week:</label>
+        <span id="currentDayOfTheWeek" data-testid="currentDayOfTheWeek"></span>
+      </div>
+      <div>
+        <label>Current UTC Time:</label>
+        <span id="currentUTCTime" data-testid="currentUTCTime"></span>
+      </div>
+      <div>
+        <label>Track:</label>
+        <p data-testid="myTrack">Frontend</p>
+      </div>
+      <div>
+        <label for="">GitHub URL:</label>
+        <a
+          href="https://github.com/olajutemot/front-end-stage-one"
+          data-testid="githubURL"
+        >
+          GitHub Repository
+        </a>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
